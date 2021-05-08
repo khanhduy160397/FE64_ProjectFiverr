@@ -1,0 +1,20 @@
+.search_menu {
+    border: 1px solid #e6e4e4;
+    input {
+        &:focus {
+            box-shadow : none;
+        }
+    }
+    span {
+        color: #6c757d;
+        background-color: #fff;
+        padding: 0 10px;
+    }
+    button {
+        border-radius: 0;
+        background-color: $color_green !important;
+        &:hover {
+            background-color: $color_green_hover !important;
+        }
+    }
+}

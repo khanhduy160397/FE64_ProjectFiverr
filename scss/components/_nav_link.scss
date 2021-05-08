@@ -1,0 +1,17 @@
+.navbar_link {
+    .nav-item {
+        margin-right: 1rem;
+        .nav-link {
+            font-weight: bold !important;
+            font-size: 0.9rem;
+            &:hover {
+                color: $color_green !important;
+            }
+        }
+        &.active {
+            .nav-link {
+                color: $color_green_link !important;
+            }
+        }
+    }
+}

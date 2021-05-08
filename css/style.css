@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.search_menu {
+  border: 1px solid #e6e4e4;
+}
+
+.search_menu input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.search_menu span {
+  color: #6c757d;
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+.search_menu button {
+  border-radius: 0;
+  background-color: #1dbf73 !important;
+}
+
+.search_menu button:hover {
+  background-color: #168a53 !important;
+}
+
+.navbar_link .nav-item {
+  margin-right: 1rem;
+}
+
+.navbar_link .nav-item .nav-link {
+  font-weight: bold !important;
+  font-size: 0.9rem;
+}
+
+.navbar_link .nav-item .nav-link:hover {
+  color: #1dbf73 !important;
+}
+
+.navbar_link .nav-item.active .nav-link {
+  color: #02c2a9 !important;
+}
+
+.intro_start_selling {
+  height: 500px;
+  position: relative;
+}
+
+@media screen and (min-width: 1500px) {
+  .intro_start_selling {
+    height: 650px;
+  }
+}
+
+.intro_start_selling video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 500px;
+}
+
+@media screen and (min-width: 1500px) {
+  .intro_start_selling video {
+    height: 100%;
+  }
+}
+
+.intro_start_selling .intro_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.intro_start_selling .intro_content__title {
+  font-size: 3rem;
+}
+
+@media screen and (min-width: 1500px) {
+  .intro_start_selling .intro_content__title {
+    font-size: 4rem;
+  }
+}
+
+.intro_start_selling .intro_content__p {
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 1500px) {
+  .intro_start_selling .intro_content__p {
+    font-size: 2rem;
+  }
+}
+
+.intro_start_selling .intro_data_row {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(144, 144, 144, 0.5);
+  width: 100%;
+  text-align: center;
+  padding: 1rem 10rem;
+  color: white;
+}
+
+.intro_start_selling .intro_data_row p {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+.intro_start_selling .intro_data_row h5 {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */
