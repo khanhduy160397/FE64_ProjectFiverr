@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" />
+  <link rel="stylesheet" href="../libs/venobox/venobox.min.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -35,7 +36,7 @@
             </span>
             <input type="text" class="form-control border-0" placeholder="Find Services"
               aria-describedby="basic-addon2">
-            <button class="btn btn-success font-weight-bold">Search</button>
+            <button class="btn btn-success font-weight-bold button_default">Search</button>
           </div>
         </div>
         <div class="col-8">
@@ -202,17 +203,94 @@
     </div>
   </section>
 
+  <section id="learn_from_fiverr" class="container mt-5">
+    <div class="row py-5 px-4">
+      <div class="col-6">
+        <div class="container left_content">
+          <img src="../assets/learn_more.svg" alt="">
+          <h2 class="title">On-demand professional courses, led by the world’s leading experts.
+          </h2>
+          <p>Discover what it takes to be a top-notch seller on Fiverr with this complimentary Learn from Fiverr course.
+          </p>
+          <button class="btn btn-success button_default font-weight-bold">Learn More</button>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="container right_content">
+          <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=xypzmu5mMPY">
+            <i class="fa fa-play-circle" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Buyer Stories -->
+  <section id="buyer">
+    <h2 class="text-center py-4">Buyer Stories</h2>
+    <div class="container buyer_container">
+      <div class="buyer_item-1 d-flex">
+        <img src="../assets/buyer_1.jpg" width="50%">
+        <div class="right_content w-50 d-flex justify-content-center align-items-center px-3 ">
+          <p class="font-italic">"People love our logo, and we love Fiverr." <br> <br>
+            <span>Jennifer Gore, CEO of Weleet</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="buyer_item-2 d-flex">
+        <img src="../assets/buyer_2.jpg" width="50%">
+        <div class="right_content w-50 d-flex justify-content-center align-items-center px-3 ">
+          <p class="font-italic">""Fiverr is an amazing resource for anyone in the startup space."
+            <br> <br>
+            <span>Adam Mashaal, CEO of Mashfeed
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="buyer_item-3 d-flex">
+        <div class="right_content w-50 d-flex justify-content-center align-items-center px-3 ">
+          <p class="font-italic">"There is no way I could have produced anything without Fiverr."
+            <br> <br>
+            <span>Christopher Sunami, Music Producer
+            </span>
+          </p>
+        </div>
+        <img src="../assets/buyer_3.jpg" width="50%">
+      </div>
+
+      <div class="buyer_item-4 d-flex">
+        <div class="right_content w-50 d-flex justify-content-center align-items-center px-3 ">
+          <p class="font-italic">"Fiverr enables me to quickly, efficiently and cost-effectively get things done."
+            <br> <br>
+            <span>Cristina Dolan, Entrepreneur
+            </span>
+          </p>
+        </div>
+        <img src="../assets/buyer_4.jpg" width="50%">
+      </div>
+
+    </div>
+  </section>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="../libs/venobox/venobox.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      $('.venobox').venobox();
+    });
+  </script>
 </body>
 
 </html>

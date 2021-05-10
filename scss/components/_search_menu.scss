@@ -10,11 +10,7 @@
         background-color: #fff;
         padding: 0 10px;
     }
-    button {
-        border-radius: 0;
-        background-color: $color_green !important;
-        &:hover {
-            background-color: $color_green_hover !important;
-        }
+    .button_default {
+       @include button;
     }
 }

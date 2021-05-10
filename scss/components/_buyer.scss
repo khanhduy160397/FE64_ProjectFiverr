@@ -1,0 +1,59 @@
+.buyer_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .buyer_item {
+
+        &-1,
+        &-2,
+        &-3,
+        &-4 {
+            position: relative;
+            background-color: $bgColor-1;
+
+            p {
+                span {
+                    font-style: normal;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        &-1,
+        &-2 {
+            .right_content {
+                position: relative;
+                &::after {
+                    content: "";
+                    width: 30px;
+                    height: 40px;
+                    background-color: #f7f7f7;
+                    color: #f7f7f7;
+                    position: absolute;
+                    top: 50%;
+                    left: -20px;
+                    transform: translateY(-50%);
+                    clip-path: polygon(100% 0, 100% 100%, 0 51%);
+                }
+            }
+        }
+        &-3,
+        &-4 {
+            .right_content {
+                position: relative;
+                &::after {
+                    content: "";
+                    width: 30px;
+                    height: 40px;
+                    background-color: #f7f7f7;
+                    color: #f7f7f7;
+                    position: absolute;
+                    top: 50%;
+                    right: -20px;
+                    transform: translateY(-50%);
+                    clip-path: polygon(0 0, 0 100%, 100% 52%);
+                }
+            }
+        }
+    }
+}
