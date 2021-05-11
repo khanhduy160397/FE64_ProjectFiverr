@@ -44,6 +44,7 @@
 
 .navbar_link .nav-item.active .nav-link {
   color: #02c2a9 !important;
+  background-color: unset !important;
 }
 
 .intro_start_selling {
@@ -269,5 +270,93 @@
           transform: translateY(-50%);
   -webkit-clip-path: polygon(0 0, 0 100%, 100% 52%);
           clip-path: polygon(0 0, 0 100%, 100% 52%);
+}
+
+#question_answer {
+  background-color: #f7f7f7;
+}
+
+#question_answer .card {
+  background-color: #fff;
+}
+
+#question_answer .card:hover {
+  border-left: 5px solid #1dbf73;
+}
+
+#question_answer .card-header h5 {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#question_answer .card-body {
+  font-size: 0.8rem;
+}
+
+.sing_up-content h5 {
+  color: #62646a;
+}
+
+.footer_image {
+  width: 80px;
+}
+
+.footer_left p {
+  color: #b5b6ba;
+}
+
+.footer_left a {
+  color: #7a7d85;
+  text-decoration: unset;
+}
+
+.footer_left a:hover {
+  text-decoration: underline;
+}
+
+.social_item {
+  font-size: 1.5rem;
+}
+
+.social_item i {
+  margin-left: 1rem;
+  color: #7a7d85;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.social_item i:hover {
+  background-color: #efeff0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.locale a {
+  color: #7a7d85;
+}
+
+.locale a:hover {
+  color: #7a7d85;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 50%;
+}
+
+.locale a:hover:hover {
+  background-color: #efeff0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 /*# sourceMappingURL=style.css.map */

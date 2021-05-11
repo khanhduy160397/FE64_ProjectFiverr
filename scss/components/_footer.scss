@@ -1,0 +1,46 @@
+.footer_image {
+    width: 80px;
+}
+.footer_left {
+    p {
+        color: #b5b6ba;
+    }
+    a {
+        color: $color_gray_1;
+        text-decoration: unset;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+.social_item {
+    font-size: 1.5rem;
+    i {
+        margin-left: 1rem;
+        color: $color_gray_1;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        line-height: 3rem;
+        border-radius: 50%;
+        transition: all 0.5s;
+        &:hover {
+            background-color: #efeff0;
+            transition: all 0.5s;
+        }
+    }
+}
+.locale {
+    a {
+        color: $color_gray_1;
+        &:hover{
+            color: $color_gray_1;
+            transition: all 0.5s;
+            border-radius: 50%;
+            &:hover {
+                background-color: #efeff0;
+                transition: all 0.5s;
+            }
+        }
+    }
+}
