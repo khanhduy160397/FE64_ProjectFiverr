@@ -1,0 +1,30 @@
+.find-talent{
+    width: 90%;
+    margin: 0 auto;
+    height: 400px;
+    background-image: url(./../../assets/bg-signup-1400-x1.png);
+    background-position: center;
+    background-size: cover;
+    .find-text{
+        color: white;
+        padding-top: 100px;
+        max-width: 60%;
+        padding-left: 100px;
+        h1{
+            font-size: 48px;
+        }
+        button{
+            color: white;
+            background-color: #1dbf73;
+            padding: 12px 28px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 50px;
+            transition: all 0.5s;
+        }
+        button:hover{
+            background-color: #19A463;
+        }
+    }
+}

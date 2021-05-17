@@ -1,0 +1,46 @@
+.guides{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .guides-title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        a{
+            text-decoration: none;
+        }
+    }
+    .guides-content{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        .guides-item{
+           width: calc(100% /3);
+           max-width: 30%;
+           a{
+               text-decoration: none;
+               color: black;
+            img{
+                width: 100%;
+                transition: all 0.5s;
+            }
+            img:hover{
+                opacity: 0.85;
+            }
+            h5{
+                margin-top: 30px;
+                font-size: 18px;
+                margin-bottom: 5px;
+            }
+            p{
+                font-size: 16px;
+                color: #7A7D98;
+                font-weight: 500;
+ 
+            }
+           }
+          
+        }
+    }
+}

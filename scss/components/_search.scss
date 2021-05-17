@@ -1,0 +1,66 @@
+.search {
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    h1 {
+        font-size: 48px;
+        font-weight: bold;
+        color: white;
+        i{
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+    }
+    form {
+        width: 80%;
+        margin: 1.5rem 0;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        background-color: white;
+        input {
+            width: 75%;
+            border: none;
+            padding: 15px 15px 15px 0px;
+        }
+        input:focus {
+            outline: none;
+        }
+        i {
+            width: 9.2%;
+            padding: 15px 20px;
+        }
+        button {
+            width: 15%;
+            padding: 15px 20px;
+            border: none;
+            background-color: #1dbf73;
+            transition: all 0.5s;
+        }
+        button:hover{
+            background-color: #19a463;
+        }
+    }
+    .popular {
+        display: flex;
+        align-items: center;
+        a {
+            text-decoration: none;
+            border: 1px solid white;
+            padding: 2px 8px;
+            border-radius: 20px;
+            margin: 0 7px;
+            color: white;
+            font-weight: 500;
+            transition: all 0.5s;
+        }
+        a:hover{
+            background-color: white;
+            color: black;
+        }
+        P {
+            margin-bottom: 0px;
+            color: white;
+            font-weight: 500;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+footer{
+    border-top: 1px solid #7A7D85;
+    margin-top: 100px;
+    padding-top: 60px;
+    .footer-content{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        .footer-item{
+            width: calc(100%/5);
+            h5{
+                color: #404145;
+                font-size: 18px;
+            }
+            ul{
+                list-style: none;
+                li{
+                    margin: 15px 0px;
+                }
+                a{
+                    color: #7A7D85;
+                    p{
+                        color: #b5b6ba;
+                        font-size: 14px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .footer-icon{
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0px;
+        border-top: 1px solid #7A7D85;
+    }
+}

@@ -1,0 +1,39 @@
+.explore{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    h1{
+        font-size: 32px;
+        line-height: 120%;
+    }
+    .explore-content{
+        display: flex;
+        flex-wrap: wrap;
+        .explore-item{
+            text-align: center;
+            width: 20%;
+            margin-bottom: 50px;
+            img{
+                width: 60px;
+            }
+            .explore-img::after{
+                content: '';
+                display: block;
+                height: 2px;
+                background-color: #c5c6c9;
+                width: 20%;
+                margin: 0 auto;
+                transition: all 0.2s;
+                
+            }
+        }
+        .explore-item:hover .explore-img::after{
+            width: 35%;
+            background-color: #8DDFB8;
+        }
+        .explore-item:hover{
+            cursor: pointer;
+        }
+
+    }
+}

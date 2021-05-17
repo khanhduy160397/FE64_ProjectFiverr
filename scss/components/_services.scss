@@ -1,0 +1,42 @@
+.services{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    .slick-prev:before {
+        content: '←';
+        color: black;
+    }
+    .slick-next:before {
+        content: '→';
+        color: black;
+    }
+    .slick-dots{
+        display: none !important;
+    }
+    h1{
+        margin-bottom: 24px;
+        margin-top: 100px;
+        font-size: 32px;
+        line-height: 120%;
+
+    }
+    .service-item{
+        position: relative;
+        img{
+            width: 100%;
+        }
+        margin: 0px 20px;
+        .service-content{
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            color: white;
+            p{
+                margin-bottom: 0px;
+            }
+            h2{
+                margin-top: 0px;
+            }
+        }
+    }
+}

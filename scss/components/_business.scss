@@ -1,0 +1,59 @@
+.business{
+    background: #0D084D;
+    .business-content{
+        display: flex;
+        padding-top: 70px;
+        width: 90%;
+        margin: 0 auto;
+        .business-left{
+            width: 50%;
+            span{
+                color: white;
+                text-transform: uppercase;
+                border: 1px solid #584AFF;
+                font-weight: bold;
+                padding: 5px 10px;
+                border-radius: 15px;
+                font-size: 10px;
+                margin-left: 10px;
+                background-color: #584AFF;
+            }
+            color: white;
+            h2{
+                margin: 30px 0;
+                font-size: 32px;
+                line-height: 120%;
+                max-width: 450px;
+            }
+            p{
+                padding-bottom: 32px;
+                font-size: 18px;
+                line-height: 26px;
+                max-width: 500px;
+            }
+            h4{
+                padding-bottom: 12px;
+                font-size: 18px;
+
+            }
+            button{
+                padding: 10px 15px;
+                color: white;
+                background-color: #1dbf73;
+                font-weight: bold;
+                border-radius: 8px;
+                margin: 50px 0px;
+                transition: all 0.4s;
+            }
+            button:hover{
+                background-color: #19A463;
+            }
+        }
+        .business-right{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

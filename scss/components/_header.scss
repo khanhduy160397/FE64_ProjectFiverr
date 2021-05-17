@@ -1,0 +1,32 @@
+header{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 90%;
+    left: 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: .5rem;
+    nav{
+        .nav-item{
+            margin: 0 .5rem;
+        }
+       a{
+           color: white !important;
+           font-weight: 500;
+           font-size: 1.1rem;
+       }
+      .join{
+        border: 1px solid ;
+        border-radius: 5px;
+        padding: 5px 20px !important;
+        transition: all 0.5s;
+      }
+      .join:hover{
+          background-color: #1dbf73;
+          border-color: #1dbf73;
+      }
+    }
+}

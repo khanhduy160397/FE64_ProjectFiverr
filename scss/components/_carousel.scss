@@ -1,0 +1,17 @@
+.carousel{
+    position: relative;
+    ul{
+        display: none !important;
+    }
+    .carousel-caption{
+        text-align: right !important;
+        p{
+            font-size: 20px;
+        }
+    }
+    .carousel-item{
+        img{
+            width: 100%;
+        }
+    }
+}
